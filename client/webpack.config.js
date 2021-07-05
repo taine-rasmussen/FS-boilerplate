@@ -18,7 +18,7 @@ module.exports = {
       ignoreOrder: false // Enable to remove warnings about conflicting order
     }),
     new Dotenv(),
-    new EnvironmentPlugin(['apiKey'])
+    new EnvironmentPlugin(['API_KEY'])
   ],
   module: {
     rules: [

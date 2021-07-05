@@ -1,18 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { connect } from 'react-redux'
 
 //Components
 import Header from './Header'
+import Input from './Input'
 
 
-const apiKey = process.env.apiKey
 
 function App () {
  
-
   return (
     <>
-      <Header />
+     <Header />
+     <Input />
     </>
   )
 }
