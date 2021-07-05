@@ -1,13 +1,18 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
+//Components
+import Header from './Header'
 
 
-function App (props) {
+const apiKey = process.env.apiKey
+
+function App () {
  
+
   return (
     <>
-      <h1>You gonna finish this project??</h1>
+      <Header />
     </>
   )
 }
