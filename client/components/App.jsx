@@ -1,20 +1,23 @@
-import React from 'react'
-import { connect } from 'react-redux'
+import React, { useState } from 'react'
+
+
+//components
+import Landing from './Landing'
+import Menu from './Menu'
 
 
 
-function App (props) {
+
+function App () {
+
+  const [view, setView] = useState(true)
  
   return (
     <>
-      <h1>You gonna finish this project??</h1>
+      {view ? <Landing setView={setView} /> : <Menu setView={setView} /> }
     </>
   )
 }
-const mapStateToProps = (globalState) => {
-  return {
-    
-  }
-}
 
-export default connect(mapStateToProps)(App)
+
+export default App
