@@ -10,10 +10,10 @@ const Landing = ({ setView }) => {
         <>
             <div className='landingWrapper'>
                 <div className='landingHeader'>
-                    <h1>Welcome</h1>
+                    <h1>Taine Rasmussen</h1>
                 </div>
-                <div className='landingBtn'>
-                    <button onClick={handleClick}>Enter</button>
+                <div className='landingBtnWrapper'>
+                    <button className='landingBtn' onClick={handleClick}>Enter</button>
                 </div>    
                 <div>
                     <footer>icon links to profiles to go here</footer>

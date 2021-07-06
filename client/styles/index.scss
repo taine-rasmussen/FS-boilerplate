@@ -10,12 +10,36 @@ body {
   margin: 4%;
   height: 42.5rem;
   background-color: #ECBA82;
+  border: 1px black solid;
+}
+
+.landingHeader {
+  position: absolute;
+  top: 25%;
+  margin-left: 20vw;
+  transform: translate(0, -50%);
+  font-size: 2.5rem;
+}
+
+.landingBtnWrapper {
+  transform: translate(0, -50%);
+  top: 50%;
+  position: absolute;
+  margin-left: 40vw;
 }
 
 .landingBtn {
-
+  width: 70px;
+  height: 30px;
 }
 
+footer {
+  position: absolute;
+  top: 90%;
+  margin-left: 70vw;
+  transform: translate(0, -50%);
+
+}
 
 
 .menuWrapper {
