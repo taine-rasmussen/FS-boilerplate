@@ -5,3 +5,5 @@ import fruits from './fruits'
 export default combineReducers({
   fruits
 })
+
+

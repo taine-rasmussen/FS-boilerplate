@@ -1,10 +1,12 @@
 exports.up = function (knex) {
-  return knex.schema.createTable('placeHolder', table => {
+  return knex.schema.createTable('Classes', table => {
     table.increments('id')
-    table.string('name')
+    table.string('class')
+    table.string('age')
+    table.string('time')
   })
 }
 
 exports.down = function (knex) {
-  return knex.schema.dropTable('placeHolder')
+  return knex.schema.dropTable('Classes')
 }
