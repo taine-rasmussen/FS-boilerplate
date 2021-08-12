@@ -6,7 +6,8 @@ import Header from './Header'
 import Home from './Home'
 import whatWeDo from './Whatwedo'
 import Fees from './Fees'
-import bookingForm from './bookingForm'
+import BookingForm from './BookingForm'
+import Uniform from './Uniform'
 import Staff from './Staff'
 import Patron from './Patron'
 import Clients from './Clients'
@@ -19,7 +20,8 @@ function App () {
       <Route exact path='/' component={Home} />
       <Route exact path='/whatwedo' component={whatWeDo} />
       <Route exact path='/fees' component={Fees} />
-      <Route exact path='/bookingForm' component={bookingForm} />
+      <Route exact path='/BookingForm' component={BookingForm} />
+      <Route exact path='/Uniform' component={Uniform} />
       <Route exact path='/staff' component={Staff} />
       <Route exact path='/patron' component={Patron} />
       <Route exact path='/clients' component={Clients} />

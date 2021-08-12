@@ -28,7 +28,7 @@ function fees () {
         We also have available Spotlight hoodies and Spotlight folders which are optional. Uniform orders are placed during week 3 of each term. 
         To submit an order, please select the button below.
         </p>
-        <Link to='/bookingForm'>
+        <Link to='/Uniform'>
           <button >Order Uniform Here</button>
         </Link>
         </>
