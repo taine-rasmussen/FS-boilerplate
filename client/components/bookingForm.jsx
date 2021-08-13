@@ -16,7 +16,7 @@ function  bookingForm () {
     <input type='text'/>
     <br></br>
     <label>D.O.B</label>
-    <input type='text'/>
+    <input type='text'placeholder="eg: 19.11.1996"/>
     <br></br>
     <label>Age</label>
     <input type='text'/>
