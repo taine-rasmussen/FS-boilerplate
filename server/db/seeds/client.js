@@ -5,8 +5,8 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('Clients').insert([
-        {id: 1, firstName: 'Ruby', lastName: 'Clarke', age: '6', phonePrimary: '123', phoneSecondary: '234', email: 'shereneclarke@spotlight.com', address: 'Tawa', medical: 'None', userType: 'Student', classes: 'Little'} ,
-        {id: 2, firstName: 'Molly', lastName: 'Clarke', age: '4', phonePrimary: '', phoneSecondary: '', email: '', address: '', medical: '', userType: '', classes: ''},
+        {id: 1, firstName: 'Ruby', lastName: 'Clarke', dob: '01.12.2010', age: '6', medicalNeeds: 'None', contactOneName: 'Sherene', contactOneNumber: '123' , contactTwoName: 'Barry', contactTwoNumber: '234', email: 'shereneclarke@spotlight.com', how: 'Newsletter'} ,
+        {id: 2, firstName: 'Molly', lastName: 'Clarke', dob: '19.03.2015', age: '4', medicalNeeds: 'None', contactOneName: 'Sherene', contactOneNumber: '123' , contactTwoName: 'Barry', contactTwoNumber: '234', email: 'shereneclarke@spotlight.com', how: 'Newsletter'} ,
         
       ]);
     });
