@@ -7,7 +7,7 @@ function  bookingForm () {
 
 
     <h1>Booking Form</h1>
-<form>
+    <form action="/my-handling-form-page" method="post">
 
     <label>First Name</label>
     <input type='text'/>
@@ -37,7 +37,7 @@ function  bookingForm () {
     <input type='text'/>
     <br></br>
     <label>Email</label>
-    <input type='text'/>
+    <input type='email'/>
     <br></br>
     <label>How did you hear about us?</label>
     <input type='text'/>
